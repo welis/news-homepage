@@ -1,7 +1,5 @@
 # Frontend Mentor - News homepage
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -20,8 +18,6 @@ Your users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
