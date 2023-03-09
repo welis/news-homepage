@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- import css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/styleMobile.css">
+  
+  <title>News homepage</title>
+
+  <style>
+    .attribution { font-size: 12px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="assets/images/logo.svg" alt="">
+    </div>
+    <div class="btn-menu">
+      <img  src="assets/images/icon-menu.svg" alt="">
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Categories</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="main-img">
+      <img src="assets/images/image-web-3-desktop.jpg" alt="">
+    </div>
+
+    <div class="news">
+      <div class="news-title">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div>
+        <div class="news-content">
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+        </div>
+        <div class="news-read">
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-side">
+      <h2>New</h2>
+      <div class="news-title">
+        <h1>Hydrogen VS Electric Cars</h1>
+      </div>
+      <div class="news-content">
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <hr>
+      <div class="news-title">
+        <h1>The Downsides of AI Artistry</h1>
+      </div>
+      <div class="news-content">
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <hr>
+      <div class="news-title">
+        <h1>Is VC Funding Drying Up?</h1>
+      </div>
+      <div class="news-content">
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </div>
+    <div class="div-bottom">
+      <div class="card">
+        <img src="assets/images/image-retro-pcs.jpg" alt="">
+        <div class="news-title">
+          <h1>01</h1>
+          <h1>Reviving Retro PCs</h1>
+          <div class="news-content">
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/image-top-laptops.jpg" alt="">
+        <div class="news-title">
+          <h1>02</h1>
+          <h1>Reviving Retro PCs</h1>
+          <div class="news-content">
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/image-gaming-growth.jpg" alt="">
+        <div class="news-title">
+          <h1>03</h1>
+          <h1>Reviving Retro PCs</h1>
+          <div class="news-content">
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    const btnMenu = document.querySelector('.btn-menu');
+    const menu = document.querySelector('ul');
+    btnMenu.addEventListener('click', () => {
+      menu.classList.toggle('menu-mobile-active');
+      btnMenu.classList.toggle('btn-menu-active');
+    })
+  </script>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/welis-vin%C3%ADcius-936a09216/">Welis Vinicio</a>.
+  </div> 
+</body>
+</html>
